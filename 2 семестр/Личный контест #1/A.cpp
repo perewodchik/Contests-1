@@ -3,7 +3,7 @@
 #define int long long
 using namespace std;
 
-void fast_io(){
+void draganov_style(){
 	 freopen("eclipse.in", "r", stdin);
 	 freopen("eclipse.out", "w", stdout);
 	 ios_base::sync_with_stdio(false);
@@ -12,7 +12,7 @@ void fast_io(){
 }
 
 signed main(){
-	fast_io();
+	draganov_style();
 	int a;
 	cin >> a;
 	int b = a; int c = a;
